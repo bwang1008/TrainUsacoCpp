@@ -7,16 +7,18 @@ LANG: C++14
 #include <fstream>
 #include <iostream>
 
-int convert_name_to_int(const std::string s) {
+const int MOD = 47;
+
+auto convert_name_to_int(const std::string& s) -> int {
 	int product = 1;
 	for(const char c : s) {
-		product = (product * (c - 'A' + 1)) % 47;
+		product = (product * (c - 'A' + 1)) % MOD;
 	}
 
 	return product;
 }
 
-int main() {
+auto main() -> int {
 	const std::string file_base_name = "ride";
 	std::ifstream fin(file_base_name + ".in");
 	std::ofstream fout(file_base_name + ".out");

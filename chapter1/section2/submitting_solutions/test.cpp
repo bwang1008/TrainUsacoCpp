@@ -7,12 +7,12 @@ LANG: C++14
 #include <fstream>
 #include <iostream>
 
-int main()
-{
+auto main() -> int {
 	std::ifstream fin("test.in");
 	std::ofstream fout("test.out");
 
-	int a, b;
+	int a = 0;
+	int b = 0;
 
 	fin >> a >> b;
 	fout << a + b << std::endl;
