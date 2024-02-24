@@ -6,6 +6,7 @@ LANG: C++14
 
 #include <fstream>
 #include <iostream>
+#include <string>
 #include <unordered_map>
 #include <vector>
 

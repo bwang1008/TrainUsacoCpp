@@ -6,6 +6,7 @@ LANG: C++14
 
 #include <fstream>
 #include <iostream>
+#include <string>
 
 const int MOD = 47;
 

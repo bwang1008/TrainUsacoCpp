@@ -6,6 +6,7 @@ LANG: C++14
 
 #include <fstream>
 #include <iostream>
+#include <string>
 #include <vector>
 
 const int START_YEAR = 1900;
