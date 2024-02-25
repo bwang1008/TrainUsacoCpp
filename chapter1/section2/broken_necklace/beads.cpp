@@ -4,6 +4,7 @@ TASK: beads
 LANG: C++14
 */
 
+#include <algorithm>
 #include <cstddef>
 #include <fstream>
 #include <iostream>
