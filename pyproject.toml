@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "trainusacocpp"
+version = "0.1.0"
+description = "C++ Solutions to USACO Training"
+authors = ["bwang1008 <bwang1008@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+# Install Poetry using Virtual Environment:
+# https://python-poetry.org/docs/#installing-manually
+# Activate Virtual Environment with "source .venv/bin/activate"
+# Run "poetry install"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pre-commit = "^3.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

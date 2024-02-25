@@ -33,3 +33,6 @@
 
 # Vim Swap files
 *.swp
+
+# Python Virtual Environment
+.venv
