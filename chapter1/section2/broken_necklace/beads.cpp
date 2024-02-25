@@ -9,7 +9,8 @@ LANG: C++14
 #include <iostream>
 #include <string>
 
-auto calc_max_beads(std::size_t N, std::string beads) -> std::size_t {
+auto calc_max_beads(const std::size_t N, const std::string& beads)
+	-> std::size_t {
 	char prev_left = ' ';
 	char prev_right = ' ';
 
