@@ -13,6 +13,7 @@ LANG: C++14
 #include <fstream>	   // std::ifstream, std::ofstream
 #include <functional>  // std::greater
 #include <iostream>	   // std::endl
+#include <string>	   // std::string
 #include <vector>	   // std::vector
 
 auto main() -> int {

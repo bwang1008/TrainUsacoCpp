@@ -12,6 +12,7 @@ LANG: C++14
 #include <algorithm>  // std::min, std::sort
 #include <fstream>	  // std::ifstream, std::ofstream
 #include <iostream>	  // std::endl
+#include <string>	  // std::string
 #include <utility>	  // std::pair
 #include <vector>	  // std::vector
 

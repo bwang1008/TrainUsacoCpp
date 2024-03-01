@@ -9,7 +9,6 @@ LANG: C++14
 #include <fstream>	  // std::ifstream, std::ofstream
 #include <iostream>	  // std::endl
 #include <string>	  // std::string
-#include <vector>	  // std::vector
 
 const std::size_t UPPER_LIMIT = 300;
 

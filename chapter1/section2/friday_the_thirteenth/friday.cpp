@@ -4,10 +4,11 @@ TASK: friday
 LANG: C++14
 */
 
-#include <fstream>
-#include <iostream>
-#include <string>
-#include <vector>
+#include <cstddef>	 // std::size_t
+#include <fstream>	 // std::ifstream, std::ofstream
+#include <iostream>	 // std::endl
+#include <string>	 // std::string
+#include <vector>	 // std::vector
 
 const int START_YEAR = 1900;
 const int LEAP_CONDITION_1 = 4;
