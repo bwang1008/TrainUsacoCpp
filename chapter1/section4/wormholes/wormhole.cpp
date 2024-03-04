@@ -52,7 +52,7 @@ auto portal_pairs_from_start_has_infinite_loop(
 	const std::vector<int>& portal_links,
 	const std::vector<std::pair<int, int>>& portal_coords,
 	const std::pair<int, int> start_coords,
-	const std::set<int> xs) -> bool {
+	const std::set<int>& xs) -> bool {
 	const std::size_t N = portal_coords.size();
 
 	const std::size_t max_num_moves = 2 * N;
@@ -71,7 +71,7 @@ auto portal_pairs_from_start_has_infinite_loop(
 auto portal_pairs_has_infinite_loop(
 	const std::vector<int>& portal_links,
 	const std::vector<std::pair<int, int>>& portal_coords,
-	const std::set<int> xs) -> bool {
+	const std::set<int>& xs) -> bool {
 	for(const std::pair<int, int> portal_coord : portal_coords) {
 		const bool result = portal_pairs_from_start_has_infinite_loop(
 			portal_links, portal_coords, portal_coord, xs);
@@ -144,7 +144,6 @@ auto main() -> int {
 	for(const std::vector<int>& portal_links : combos) {
 		if(portal_pairs_has_infinite_loop(portal_links, portal_coords, xs)) {
 			total++;
-		} else {
 		}
 	}
 
